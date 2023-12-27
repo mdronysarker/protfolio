@@ -1,0 +1,23 @@
+nav {
+  a {
+    color: $blackColor;
+    font-size: 18px;
+    transition: all linear 0.3s;
+    &:hover {
+      color: $mainColor;
+    }
+  }
+
+  .button {
+    padding: 15px 32px;
+    font-size: 18px;
+    background-color: $mainColor;
+    border: none;
+    transition: all linear 0.3s;
+    color: $whiteColor;
+
+    &:hover {
+      background-color: #64539b;
+    }
+  }
+}
