@@ -84,6 +84,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        cursor: pointer;
 
         svg {
           filter: grayscale(1);
@@ -97,5 +98,14 @@
         }
       }
     }
+  }
+}
+
+.copy-right {
+  padding: 20px 0;
+  background-color: $mainColor;
+
+  li a {
+    color: white;
   }
 }
